@@ -1,5 +1,5 @@
 # Fibi-Assignment
-###Post request
+### Post request
 Url: 
 ```sh
 http://localhost:3000/upload-images
@@ -16,7 +16,7 @@ body :
 ```
 
 
-###Get request
+### Get request
 
 
 To get all objects:
