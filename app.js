@@ -10,7 +10,6 @@ app.use(bodyParser.urlencoded({
   app.use(bodyParser.json())
   
   const db_uri = "mongodb+srv://suvro_coder:suvro_coder@cluster0-woyrf.mongodb.net/fibi";
-  console.log(db_uri);
   mongoose.connect(db_uri, { useNewUrlParser: true, useCreateIndex:true, useUnifiedTopology:true});
   
   mongoose.connection
